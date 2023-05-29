@@ -40,6 +40,8 @@ function Card(props){
          <div className='bottom'>
          <p className='info'>{contacts.phone}</p>
           <p className='info'>{contacts.email}</p>
+          <h4>Information</h4>
+          <p className='info'>{contacts.info.substring(0, 100)}</p>
          </div>
          </div>
 

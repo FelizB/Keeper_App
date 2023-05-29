@@ -61,7 +61,7 @@
     padding: 25px 15px;
     background-color: #81ecec;
     margin: 0 auto;
-    height: 200px;
+    max-height: 400px;
     width: 400px;
     margin-top: 50px;
     box-shadow: 0 2px 5px #ccc;
@@ -103,6 +103,6 @@
   }
   
   .info {
-    margin: 20px 0;
+    margin: 10px 0;
     color: #1a7e76;
   }
