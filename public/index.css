@@ -1,0 +1,12 @@
+.rootbody {
+    background: #eee;
+    padding: 0 16px;
+  }
+.rootbody1{
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+    font-weight: 300;
+    background: #50a3a2;
+    width: 100%;
+    height: 100%;
+}

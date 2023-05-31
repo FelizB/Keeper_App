@@ -1,19 +1,16 @@
 import React from 'react';
-import Header from "./Header";
 import Note from "./Note";
-import Footer from "./Footer";
-import Card from "./Cards";
-import contacts from './contacts';
+import {SignUp, Signin} from './Sign';
 
 function App(){
-    return(
-        <>
-        <Header />
-        <Note />
-        <Card items={contacts}/>
-        <Footer />
-        </>
-    )
+        return(
+            <Note />
+    )};
 
-}
-export default App;
+ function Signed(){
+    return(  
+            <Signin />
+    )
+ }  
+
+export  {App, Signed};
