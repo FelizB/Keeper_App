@@ -12,7 +12,7 @@ if(isLogged){
 
 }else{
   ReactDOM.render(
-    <Signed />,
+    <Signed  />,
     document.getElementById('root1') 
   )
 
